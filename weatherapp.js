@@ -16,7 +16,6 @@ const searchCity = async() => {
 	const city = document.getElementById('city-input').value
 const data = await getWeather(city)	
 showData(data)
-document.getElementById('city-input').innerText = ''
 }
 
 const showData = (weather) => {
